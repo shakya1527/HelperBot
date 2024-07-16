@@ -23,8 +23,8 @@ def about_section(container: st.container, database: ChatRepositoryImp, export: 
         export (Export): Export object
     """
     with st.expander("About", expanded=True) as e:
-        st.title('Chatbot')
-        st.write('Welcome to Tutor Talk')
+        st.title('HelperBot')
+        st.write('Welcome to HelperBot')
         st.button('➕ New Chat', key='new-chat', on_click=database.create_new_session, use_container_width=True,
                   disabled=len(database.get_current().get_messages()) == 0
                   )

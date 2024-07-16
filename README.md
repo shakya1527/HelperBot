@@ -4,7 +4,7 @@ Welcome to **HelperBot**, your interactive learning companion powered by **Gemin
 
 ![Screenshot](docs/assets/Screenshot.png)
 
-<!-- Here is the link to the <a href="https://tutor-talk.streamlit.app/" target="_blank">HelperBot</a> web application. -->
+<!-- Here is the link to the <a href="https://HelperBot.streamlit.app/" target="_blank">HelperBot</a> web application. -->
 
 ## Features
 

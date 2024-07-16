@@ -17,7 +17,7 @@ if __name__ == '__main__':
     emoji = Emoji().get_random_emoji()
 
     # Set the Streamlit app configuration
-    st.set_page_config(page_title='Tutor Talk', page_icon=f'{emoji}', layout='wide')
+    st.set_page_config(page_title='HelperBot', page_icon=f'{emoji}', layout='wide')
 
     database: ChatRepositoryImp = create_or_update_session(
         State.CHAT_REPOSITORY.value,
@@ -66,7 +66,7 @@ if __name__ == '__main__':
 
     # Render the main container
     with main_container:
-        st.title(f'{emoji} Chatbot')
+        st.title(f'{emoji} HelperBot')
         st.caption('A chatbot based on Gemini Ai.')
 
         # Display the chat messages

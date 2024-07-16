@@ -118,7 +118,7 @@ def convert_to_markdown(session: Session) -> str:
     Returns:
         str: Markdown text
     """
-    markdown = '# ' + 'Tutor Talk\n\n'
+    markdown = '# ' + 'HelperBot\n\n'
     markdown += f'## {session.get_session_name()}\n\n'
     for message in session.get_messages():
         if message.get_role() == Role.MODEL:
