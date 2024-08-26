@@ -32,7 +32,7 @@ Follow these steps to get started:
 
 1. Generate your API key from <a href="https://ai.google.dev/" target="_blank">Google AI</a>
 2. Clone this repository using `git clone https://github.com/shakya1527/HelperBot.git`
-3. Create a `.env` file and add your API key.
+3. Create a `.env` file and add your API key `GEMINI_KEY = `.
 4. Install the required packages with `pip install -r requirements.txt`.
 5. Run the Streamlit app using `streamlit run .\src\project\__init__.py`.
 
